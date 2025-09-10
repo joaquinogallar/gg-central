@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- BACKGROUND -->
+    <color name="dark">#FF0B1020</color>
+    <color name="light">#FFF9F9FB</color>
+
+    <!-- PRIMARY -->
+    <color name="primary_light">#FF3B5BDB</color>
+    <color name="onPrimary_light">#FFFFFFFF</color>
+
+    <color name="primary_dark">#FF7EA1FF</color>
+    <color name="onPrimary_dark">#FF0A122B</color>
+
+    <!-- ACCENT -->
+    <color name="accent_light">#FFFFB400</color>
+    <color name="onAccent_light">#FF1F1400</color>
+
+    <color name="accent_dark">#FFFFC257</color>
+    <color name="onAccent_dark">#FF251A00</color>
 </resources>
