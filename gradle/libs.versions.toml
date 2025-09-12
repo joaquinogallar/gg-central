@@ -10,6 +10,8 @@ material = "1.12.0"
 activity = "1.10.1"
 constraintlayout = "2.2.1"
 parcelizeKotlinAndroid = "2.0.20"
+hiltVersion = "2.51.1"
+kaptVersion = "2.0.20"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -21,8 +23,12 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-activityKtx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+hilt = { module = "com.google.dagger:hilt-android", version.ref = "hiltVersion" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "kaptVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 parcelizeKotlinAndroid = { id = "org.jetbrains.kotlin.plugin.parcelize", version.ref = "parcelizeKotlinAndroid" }
+hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltVersion" }
+kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kaptVersion" }
